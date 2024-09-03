@@ -1,0 +1,93 @@
+@import url(index.css);
+/*從這之後開始 前面不要動到！*/
+.a-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.text1{
+    position: relative;
+    left: 580px;
+    top: 100px;
+    color: #1d3557;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 3%;
+    border:#a8dadc 5px dashed;
+    width: 750px;
+    height: 200px;
+    padding: 10px 15px 10px 25px;
+}
+
+ /*footer*/
+ .v-footer {
+     height: 200px;
+     /*設定footer本身高度*/
+     background-color: #a2d2ff;
+     bottom: 0;
+     width: 100%;
+     margin-top: 27px;
+
+
+ }
+
+ .v-jia {
+     position: absolute;
+     top: 1110px;
+     left: 200px;
+     width: 170px;
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+
+ .v-ziyi {
+     position: absolute;
+     top: 1110px;
+     left: 470px;
+     width: 140px;
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+
+ .v-yu {
+     position: absolute;
+     top: 1112px;
+     right: 470px;
+     width: 130px;
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+
+ .v-ruling {
+     position: absolute;
+     top: 1110px;
+     right: 210px;
+     width: 100px;
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+
+ .v-team10 {
+     position: absolute;
+     top: 1160px;
+     left: 770px;
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+
+ .v-jia,
+ .v-ziyi,
+ .v-yu,
+ .v-ruling {
+     -webkit-transform-origin: bottom center;
+     transform-origin: bottom center;
+     animation: swing 6s linear infinite;
+     -webkit-animation: swing 6s linear infinite;
+ }

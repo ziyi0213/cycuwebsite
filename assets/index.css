@@ -1,0 +1,295 @@
+html,body {
+  background-color:#edf6f9;
+  font-family: 'Noto Serif TC',
+    serif;
+    height: 100%;
+    margin: 0;
+}
+
+.i-background{
+    background-image: url('../image/background.png');
+    background-attachment:fixed;
+    height: 1200px;
+}
+
+.wrapper{
+  min-height:100%;
+  margin-bottom: -200px;
+}
+
+.content {
+  padding-bottom: 500px;
+}
+
+.footer {
+  height: 200px;
+  /*設定footer本身高度*/
+  background-color:#a2d2ff;
+  bottom: 0;
+  width: 100%;
+  margin-top: 150px;
+}
+.title {
+  text-align: center;
+  font-size: 50px;
+  color: #0f4c5c;
+  padding-top: 20px;
+}
+
+.title img {
+  max-width: 550px;
+  max-height: 550px;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.all {
+  text-align: center;
+  padding-top: 20px;
+
+}
+
+.list {
+  color: #2a6f97;
+}
+
+
+ul.list {
+  /*background-color: rgba(165, 204, 180, 0.911);*/
+  display: inline-block;
+  font-family: 'Noto Serif TC', serif;
+  font-size: 20px;
+  justify-content: space-evenly;
+}
+
+ul.list li {
+  position: relative;
+  white-space: nowrap;
+  font-size: 25px;
+  justify-content: space-evenly;
+}
+
+ul.list>li:last-child {
+  border-right: none;
+}
+
+ul.list>li {
+  display: inline-block;
+
+}
+
+ul.list a {
+  color: #2a6f97;
+  display: block;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  line-height: 25px;
+  width: auto;
+
+}
+
+ul.list li a:hover {
+  background-color: #d8e2dc;
+  color: #354f52;
+}
+
+/*宿舍、相關選單滑鼠移動字體變色*/
+ul.dormlist li a:hover,
+ul.url li a:hover {
+  background-color: #fff3b0;
+  color: #354f52;
+}
+
+
+ul.list li:hover>a {
+  color: #354f52;
+  width: auto;
+}
+
+ul.dormlist li>a {
+  background-color: #99c1de;
+  text-align: left;
+}
+
+ul.url li>a {
+  background-color: #99c1de;
+  text-align: left;
+}
+
+.a:hover {
+  background-color: #d8e2dc;
+  width: auto;
+  color: #354f52;
+  padding: 0 10px 0 10px;
+}
+
+ul.list ul {
+  border: #7ebdc2 1px solid;
+  position: absolute;
+  z-index: 99;
+  left: 0;
+  top: auto;
+  min-width: 100px;
+}
+
+ul.list ul li {
+  border-bottom: #7ebdc2 1px solid;
+
+}
+
+ul.list ul li:last-child {
+  border-bottom: #7ebdc2;
+}
+
+
+ul.list ul {
+  display: none;
+}
+
+ul.list li:hover>ul {
+
+  display: block;
+}
+
+
+
+.jia {
+  position: absolute;
+  top:1155px;
+  left: 200px;
+  width: 170px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ziyi{
+  position: absolute;
+  top:1155px;
+  left: 470px;
+  width: 140px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.yu{
+  position: absolute;
+  top:1158px;
+  right: 470px;
+  width: 130px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ruling{
+  position: absolute;
+  top:1155px;
+  right: 210px;
+  width: 100px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.team10 {
+  position: absolute;
+  top: 1205px;
+  left:770px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/*動畫*/
+
+@-webkit-keyframes swing {
+  10% {
+    transform: rotate(15deg);
+  }
+  20% {
+    transform: rotate(-10deg);
+  }
+  30% {
+    transform: rotate(5deg);
+  }
+  40% {
+    transform: rotate(-5deg);
+  }
+  50%,100% {
+    transform: rotate(0deg);
+  }
+}
+@-moz-keyframes swing {
+  10% {
+    transform: rotate(15deg);
+  }
+  20% {
+    transform: rotate(-10deg);
+  }
+  30% {
+    transform: rotate(5deg);
+  }
+  40% {
+    transform: rotate(-5deg);
+  }
+  50%,100% {
+    transform: rotate(0deg);
+  }
+}
+@-o-keyframes swing {
+  10% {
+    transform: rotate(15deg);
+  }
+  20% {
+    transform: rotate(-10deg);
+  }
+  30% {
+    transform: rotate(5deg);
+  }
+  40% {
+    transform: rotate(-5deg);
+  }
+  50%,100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes swing {
+  10% {
+    transform: rotate(15deg);
+  }
+  20% {
+    transform: rotate(-10deg);
+  }
+  30% {
+    transform: rotate(5deg);
+  }
+  40% {
+    transform: rotate(-5deg);
+  }
+  50%,100% {
+    transform: rotate(0deg);
+  }
+}
+
+.jia,.ziyi,.yu,.ruling{
+  -webkit-transform-origin: bottom center;
+  transform-origin: bottom center;
+  animation: swing 6s  linear infinite;
+  -webkit-animation: swing 6s   linear infinite;
+}

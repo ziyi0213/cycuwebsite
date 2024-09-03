@@ -1,0 +1,134 @@
+@import url(index.css);
+/*從這之後開始 前面不要動到！*/
+
+.us-background {
+     background-image: url('../image/background.png');
+     background-attachment: fixed;
+     height: 1210px;
+}
+.container{
+    columns: 4;
+    column-rule: gray solid 1px;
+    text-align: center;
+    column-fill: balance;
+    width: 1870px;
+}
+.subsection {
+    padding: 30px;
+    -webkit-column-break-before: always;
+    color: #0f4c5c;
+    margin-top: 100PX;
+    position: relative;
+    left:10px;
+}
+
+img{
+    height: 75%;
+    width: 75%;
+}
+.header{
+    text-align: center;
+    column-span: all;
+}
+
+.position{
+    position: relative;
+    text-align: center;
+    word-break: break-all;
+}
+
+   /*footer*/
+   .us-footer {
+       height: 200px;
+       /*設定footer本身高度*/
+       background-color: #a2d2ff;
+       bottom: 0;
+       width: 100%;
+       margin-top: 50px;
+
+
+   }
+
+   .us-jia {
+       position: absolute;
+       top: 1065px;
+       left: 200px;
+       width: 170px;
+       height: 190px;
+       margin: 0;
+       padding: 0;
+       list-style: none;
+   }
+
+   .us-ziyi {
+       position: absolute;
+       top: 1065px;
+       left: 470px;
+       width: 140px;
+       height: 190px;
+       margin: 0;
+       padding: 0;
+       list-style: none;
+   }
+
+   .us-yu {
+       position: absolute;
+       top: 1065px;
+       right: 440px;
+      width: 140px;
+      height:180px;
+       margin: 0;
+       padding: 0;
+       list-style: none;
+   }
+
+   .us-ruling {
+       position: absolute;
+       top: 1060px;
+       right: 200px;
+       width: 120px;
+       height: 200px;
+       margin: 0;
+       padding: 0;
+       list-style: none;
+   }
+
+   .us-team10 {
+       position: absolute;
+       top: 1110px;
+       left: 750px;
+       width: auto;
+       height: auto;
+       margin: 0;
+       padding: 0;
+       list-style: none;
+   }
+
+   .us-jia,
+   .us-ziyi,
+   .us-yu,
+   .us-ruling {
+       -webkit-transform-origin: bottom center;
+       transform-origin: bottom center;
+       animation: swing 6s linear infinite;
+       -webkit-animation: swing 6s linear infinite;
+   }
+
+   .ig-p{
+       width:50px;
+       height:50px;
+       margin: 0;
+       padding: 0;
+       position: absolute;
+       left: 60px;
+   }
+
+   .ig{
+       font-family: Comic Sans MS,
+       Comic Sans,
+       cursive;
+       color:#0f4c5c;
+       font-size: 30px;
+       text-align: center;
+   }
+  

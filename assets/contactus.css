@@ -1,0 +1,98 @@
+@import url(index.css);
+/*從這之後開始 前面不要動到！*/
+.us-background {
+   background-image: url('../image/background.png');
+   background-attachment: fixed;
+   height: 1210px;
+}
+.form{
+    width: 1200px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    margin: -100px 0 0 -300px;
+}
+.t{
+   padding: 10px;
+   color: #0f4c5c;
+   font-weight: bold;
+   text-align: center;
+}
+.button{
+   padding: 5px;
+   border-radius: 7px;
+   background-color: 	#C4E1FF;
+   font-weight: bold;
+   
+}
+ /*footer*/
+ .c-footer {
+    height: 200px;
+    /*設定footer本身高度*/
+    background-color: #a2d2ff;
+    bottom: 0;
+    width: 100%;
+    margin-top: 27px;
+
+
+ }
+
+.c-jia {
+   position: absolute;
+   top: 1055px;
+   left: 200px;
+   width: 170px;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.c-ziyi {
+   position: absolute;
+   top: 1055px;
+   left: 470px;
+   width: 140px;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.c-yu {
+   position: absolute;
+   top: 1053px;
+   right: 470px;
+   width: 130px;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.c-ruling {
+   position: absolute;
+   top: 1050px;
+   right: 210px;
+   width: 100px;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.c-team10 {
+   position: absolute;
+   top: 1105px;
+   left: 770px;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.c-jia,
+.c-ziyi,
+.c-yu,
+.c-ruling {
+   -webkit-transform-origin: bottom center;
+   transform-origin: bottom center;
+   animation: swing 6s linear infinite;
+   -webkit-animation: swing 6s linear infinite;
+}

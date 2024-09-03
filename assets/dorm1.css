@@ -1,0 +1,439 @@
+@import url(index.css);
+
+/*從這之後開始 前面不要動到！*/
+.d-background {
+  background-image: url('../image/background.png');
+  background-attachment: fixed;
+  height: 1800px;
+}
+
+.cubea {
+  /*這是設備方塊*/
+  background-color: #84C1FF;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  font-weight: bolder;
+  border-radius: 12px;
+  font-size: 25px;
+  position: relative;
+  left: 100px;
+  top: 90px;
+  width: 80px;
+}
+
+p {
+  text-align: center;
+}
+
+/*以下為hover特效外框設定*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc;
+  width: 400px;
+  position: relative;
+  left: 100px;
+  top: 80px;
+  vertical-align: top;
+
+}
+
+.container1 {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc;
+  width: 400px;
+  position: relative;
+  left: 150px;
+  top: 80px;
+  vertical-align: top;
+
+}
+
+.container2 {
+  display: inline-block;
+  justify-content: center;
+  background-color: #ccc;
+  width: 400px;
+  position: relative;
+  left: 200px;
+  top: 80px;
+  vertical-align: top;
+}
+
+.container3 {
+  display: inline-block;
+  justify-content: center;
+  background-color: #ccc;
+  width: 400px;
+  position: relative;
+  left: 100px;
+  top: 130px;
+  vertical-align: top;
+
+}
+
+.container4 {
+  display: inline-block;
+  justify-content: center;
+  background-color: #ccc;
+  width: 400px;
+  position: relative;
+  left: 553px;
+  top: -160px
+}
+
+.container5 {
+  display: inline-block;
+  justify-content: center;
+  background-color: #ccc;
+  width: 400px;
+  position: relative;
+  left: 1010px;
+  top: -455px;
+  vertical-align: top;
+}
+
+.container6 {
+  display: inline-block;
+  justify-content: center;
+  background-color: #ccc;
+  width: 400px;
+  position: relative;
+  left: 100px;
+  top: -350px;
+  vertical-align: top;
+}
+
+.container7 {
+  display: inline-block;
+  justify-content: center;
+  background-color: #ccc;
+  width: 400px;
+  position: relative;
+  left: 148px;
+  top: -350px;
+  vertical-align: top;
+}
+
+.container8 {
+  display: inline-block;
+  justify-content: center;
+  background-color: #ccc;
+  width: 400px;
+  position: relative;
+  left: 200px;
+  top: -350px;
+  vertical-align: top;
+}
+
+.work {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  margin: 20px;
+}
+
+.work1 {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  margin: 20px;
+}
+
+.work2 {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  margin: 20px;
+}
+
+.work3 {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  margin: 20px;
+}
+
+.work4 {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  margin: 20px;
+}
+
+.work5 {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  margin: 20px;
+}
+
+.work6 {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  margin: 20px;
+}
+
+.work7 {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  margin: 20px;
+}
+
+.work8 {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  margin: 20px;
+}
+
+.info {
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: rgba(0, 0, 0, .3);
+  color: white;
+  font-size: 22px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 5px;
+}
+
+
+
+.info:hover {
+  opacity: 1;
+  transition: opacity 0.8s;
+}
+
+.d-b {
+  height: 0px;
+}
+
+
+/*以下為照片設定*/
+
+.da {
+  width: 350px;
+  height: 250px;
+  position: relative;
+  left: 5px;
+  display: block;
+  object-fit: cover;
+}
+
+.db {
+  width: 350px;
+  height: 250px;
+  position: relative;
+  left: 5px;
+  display: block;
+  object-fit: cover;
+  text-align: center;
+}
+
+.dc {
+  width: 350px;
+  height: 250px;
+  position: relative;
+  left: 5px;
+  display: block;
+  object-fit: cover;
+}
+
+.dd {
+  width: 350px;
+  height: 250px;
+  position: relative;
+  left: 5px;
+  display: block;
+  object-fit: cover;
+}
+
+.de {
+  width: 350px;
+  height: 250px;
+  position: relative;
+  left: 5px;
+  display: block;
+  object-fit: cover;
+}
+
+.df {
+  width: 350px;
+  height: 250px;
+  position: relative;
+  left: 5px;
+  display: block;
+  object-fit: cover;
+}
+
+.cubeb {
+  /*這是活動方塊*/
+  background-color: #84C1FF;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  font-weight: bolder;
+  border-radius: 12px;
+  font-size: 25px;
+  position: relative;
+  left: 100px;
+  top: -330px;
+  width: 80px;
+}
+
+/*以下為照片設定*/
+.dg {
+  width: 350px;
+  height: 250px;
+  position: relative;
+  left: 5px;
+  display: block;
+  object-fit: cover;
+}
+
+.dh {
+  width: 350px;
+  height: 250px;
+  position: relative;
+  left: 5px;
+  display: block;
+  object-fit: cover;
+}
+
+.di {
+  width: 350px;
+  height: 250px;
+  position: relative;
+  left: 5px;
+  display: block;
+  object-fit: cover;
+}
+
+.d-all {
+  margin-left: 210px;
+}
+
+/*footer*/
+.d-footer {
+  height: 200px;
+  /*設定footer本身高度*/
+  background-color: #a2d2ff;
+  bottom: 0;
+  width: 100%;
+  margin-top: 70px;
+
+
+}
+
+.d-jia {
+  position: absolute;
+  top: 1805px;
+  left: 200px;
+  width: 170px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.d-ziyi {
+  position: absolute;
+  top: 1805px;
+  left: 470px;
+  width: 140px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.d-yu {
+  position: absolute;
+  top: 1805px;
+  right: 470px;
+  width: 130px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.d-ruling {
+  position: absolute;
+  top: 1800px;
+  right: 210px;
+  width: 100px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.d-team10 {
+  position: absolute;
+  top: 1855px;
+  left: 770px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.d-jia,
+.d-ziyi,
+.d-yu,
+.d-ruling {
+  -webkit-transform-origin: bottom center;
+  transform-origin: bottom center;
+  animation: swing 6s linear infinite;
+  -webkit-animation: swing 6s linear infinite;
+}
+
+.fb {
+  color: #0f4c5c;
+  text-decoration: none;
+}
+
+.d-t {
+  font-size: 28px;
+}
+
+.content-d{
+  padding-bottom: 380px;
+}
+
+.c-t{
+  margin: 0;
+  padding: 0;
+  width: 750px;
+  text-align: left;
+  position: relative;
+  left: 250px;
+  top:30px;
+  font-size: 20px;
+  color:#457b9d;
+  font-weight: bold;
+}
+
+.c-t2{
+  margin: 0;
+  padding: 0;
+  width: 750px;
+  text-align: left;
+  position: relative;
+  left: 250px;
+  top:-390px;
+  font-size: 20px;
+  color:#457b9d;
+  font-weight: bold;
+}
